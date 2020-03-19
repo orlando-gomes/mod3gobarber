@@ -1,3 +1,5 @@
 Prática do módulo 3, para backend do gobarber
 - Upload de arquivos
-- Alterar tabela existente com nova migration
+- Acrescentar coluna em tabela users, com nova migration
+- Criada rota para fornecedores (providers)
+- Criada a funcionalidade de agendamentos
