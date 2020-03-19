@@ -1,1 +1,3 @@
-Prática do módulo 2, para início do gobarber
+Prática do módulo 3, para backend do gobarber
+- Upload de arquivos
+- Alterar tabela existente com nova migration
