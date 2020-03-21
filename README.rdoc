@@ -3,5 +3,5 @@ Prática do módulo 3, para backend do gobarber
 - Acrescentar coluna em tabela users, com nova migration
 - Criada rota para fornecedores (providers)
 - Criada a funcionalidade de agendamentos
-- comit do linux
+- Criada a funcionalidade de envio de notificacoes
 
