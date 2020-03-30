@@ -15,6 +15,8 @@ import authMiddleware from './app/middlewares/auth';
 const routes = new Router();
 const upload = multer(multerConfig);
 
+// routes.get('/teste', (req, res) => res.json({ msg: process.env.APP_SECRET }));
+
 routes.post('/users', UserController.store);
 routes.post('/sessions', SessionController.store);
 
