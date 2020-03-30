@@ -5,4 +5,4 @@ Prática do módulo 3, para backend do gobarber
 - Criada a funcionalidade de agendamentos
 - Criada a funcionalidade de envio de notificacoes
 - Cancelamento de envio de email - OK
-
+- Configurações avançadas - exceções e variáveis ambiente
