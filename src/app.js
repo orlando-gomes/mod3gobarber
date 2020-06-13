@@ -2,6 +2,7 @@ import 'dotenv/config';
 
 import express from 'express';
 import path from 'path';
+import cors from 'cors';
 import Youch from 'youch';
 // Sentry is a Exception handler
 import * as Sentry from '@sentry/node';
@@ -31,6 +32,12 @@ class App {
   middlewares() {
     // Sentry is a Exception handler
     this.server.use(Sentry.Handlers.requestHandler());
+
+    // O cors gera controle de acesso
+    this.server.use(cors());
+    // Em ambiente de produção, poderíamos setar
+    // this.server.use(cors({ origin: 'https://rocketseat.com.br' }));
+
     this.server.use(express.json());
     this.server.use(
       '/files',
